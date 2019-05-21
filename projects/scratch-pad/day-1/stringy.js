@@ -153,7 +153,10 @@ return end
  */
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+if (stringOne.length > stringTwo.length){
+    return stringOne;
+}
+return stringTwo;
 
 
     // YOUR CODE ABOVE HERE //
